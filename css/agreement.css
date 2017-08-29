@@ -1,0 +1,74 @@
+
+#preview{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+    height: 300px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 #F1F1F1 inset;
+}
+.form-horizontal{
+    padding-top: 20px;
+}
+.form-horizontal>.form-group{
+    margin-top: 10px;
+}
+.part1,.part2{
+    /*border: 1px solid #d0d0d0;*/
+    box-shadow: 0 0 2px 0 #666;
+    padding-bottom: 10px;
+}
+.part1 .form-title{
+    margin-bottom: 20px;
+}
+
+.form-title{
+    background: orange;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    /*margin-bottom: 20px;*/
+}
+.form-group{
+    padding-left:  10px;
+    padding-right: 10px;
+}
+.member>li{
+    padding:15px 0 10px;
+    margin: 0;
+}
+.container p.mention{
+    padding: 0;
+    color: red;
+    margin-bottom: 10px;
+    text-indent: 0;
+    text-align: center;
+}
+.container p.error {
+    color: red;
+    margin: 10px 0 0;
+    display: none;
+}
+.container>div:nth-child(2){
+    padding: 30px 0;
+}
+#sendCode{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    background-color: orange;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    line-height: 34px;
+
+}
+#sendCode:hover{
+    text-decoration: none;
+}

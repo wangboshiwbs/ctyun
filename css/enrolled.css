@@ -1,0 +1,296 @@
+body {
+    height: 3000px;
+}
+
+.content {
+    width: 100%;
+    /*height: 2211px;*/
+    background: url("../img/bg1.png") repeat-y center;
+    background-size: contain;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.container {
+    padding: 0;
+}
+
+.content > .container {
+    /*margin-top: 184px;*/
+    /*border: 1px solid #000;*/
+    margin-top: 50px;
+    /*padding: 0 10px;*/
+    background-color: #fff;
+}
+
+.content > .container .container-fluid {
+    margin: 0 30px;
+}
+
+/*.content>.container>.row>div{*/
+/*margin: 10px;*/
+/*border: 10px solid red;*/
+/*}*/
+.blue-robin-bottom span {
+    display: block;
+    border-bottom: 3px solid #9934E5;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+#introduction p {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+    text-indent: 2em;
+    text-align: left;
+}
+
+#arrangement {
+}
+
+#arrangement p {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+#arrangement table {
+    /*border: 1px solid #d0d0d0;*/
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#arrangement table th {
+    font-weight: 600;
+}
+
+#arrangement table td, #arrangement table th {
+    /*border: 1px solid #d0d0d0;*/
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    /*margin-left: -1px;*/
+}
+
+#arrangement table tr td:nth-child(1) {
+    width: 20%;
+}
+
+#arrangement table tr td:nth-child(2) {
+    width: 30%;
+}
+
+#arrangement table tr td:nth-child(3) {
+    width: 30%;
+}
+
+#procedure div.container,#prize div.container {
+    position: relative;
+}
+
+#procedure img,#prize img {
+    text-align: center;
+}
+
+#procedure .row div,#prize .row div  {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    #procedure .row > div:nth-child(3),#prize .row > div:nth-child(3) {
+        border-right: 1px solid #000;
+    }
+
+    /*.ruleDev{*/
+    /*border-right: 1px solid #000;*/
+    /*}*/
+}
+
+@media screen and (max-width: 992px) {
+    #procedure .row > div:nth-child(3),#prize .row > div:nth-child(3) {
+        border-bottom: 2px solid #cccccc;
+    }
+
+    /*.ruleDev{*/
+    /*border-bottom: 1px solid #000;*/
+    /*}*/
+}
+
+#procedure .row span,#prize .row span {
+    display: inline-block;
+    background-color: #9934E5;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 10px 0 5px;
+    box-shadow: 2px 2px 5px 0 #333333;
+
+}
+
+#rule {
+}
+
+#rule .ruleDev span {
+    display: inline-block;
+    background-color: #f6c215;
+    /*border-bottom: 3px solid #f6c215;*/
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 10px 0 5px;
+    box-shadow: 2px 2px 5px 0 #cccccc;
+}
+
+#rule .row .ruleTitle {
+    text-align: center;
+}
+
+#rule .row .ruleTitle span {
+    display: inline-block;
+    background-color: #9934E5;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 10px 0 5px;
+    box-shadow: 2px 2px 5px 0 #333333;
+}
+
+#rule .row div:last-child p {
+    /*margin-top: 50px;*/
+}
+
+/*比赛规则开始*/
+
+/*注册按钮开始*/
+#enroll div.container-fluid {
+    /*position: relative;*/
+    height: 150px;
+    padding: 0 20px;
+    /*border: 1px solid red;*/
+}
+
+#enroll .container-fluid div {
+    /*border: 1px solid greenyellow;*/
+    padding: 5px 20px;
+}
+
+.banner {
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+}
+
+.banner .enroll_2 {
+
+    left: 170px;
+    bottom: 100px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+}
+.banner a.enroll_2 span:nth-child(1) {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.banner a.enroll_2 span:nth-child(2) {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+}
+.banner a:nth-child(4),.banner a:nth-child(5){
+    display: inline-block;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.banner a:nth-child(4){
+    right: 400px;
+}
+.banner a:nth-child(5){
+    right: 200px;
+}
+
+#enroll a {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: #f6c215;
+    letter-spacing: 7px;
+    color: white;
+    font-size: 18px;
+    /*position: absolute;*/
+    /*top: 50px;*/
+    box-shadow: 2px 2px 5px 0 #ffffff inset;
+}
+
+#enroll a:hover {
+    background-color: #FF9900;
+    box-shadow: 2px 2px 3px 0 #cccccc;
+}
+
+#enroll a:nth-child(1) {
+    /*left: 35%;*/
+}
+
+#enroll a:nth-child(2) {
+    /*left: 65%;*/
+}
+
+/*注册按钮结束*/
+/*返回顶部*/
+#toTop{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: 30px;
+    display: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    background: #9934E5;
+    opacity: 0.8;
+}
+
+.public{
+    width: 100px;
+    height: 140px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: -70px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px orange;
+    /*display: none;*/
+}
+.public img{
+    width: 80px;
+    height: 80px;
+    margin-top: 14px;
+}
+

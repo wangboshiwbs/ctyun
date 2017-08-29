@@ -1,0 +1,346 @@
+html {overflow-y:scroll;
+}body{font-size: 14px;}
+/*body {margin:0; padding:29px; font:12px"\5B8B\4F53",sans-serif;background:#ffffff;}*/
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+li,ul{
+    padding: 0;
+    margin: 0;
+    list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+/*h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}*/
+address,cite,code,em {font-weight:normal; font-style:normal;}
+a:hover,a:visited,a:link,a:active{
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    background-color: #1b2176;
+    padding: 0;
+    margin: 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei",tahoma,arial,"Hiragino Sans GB","\5B8B\4F53";
+    font-size: 13px;
+}
+h3{
+    color:#000;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+input,button{
+    outline: none;
+    /*border: none;*/
+    /*cursor: pointer;*/
+}
+p{
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 2em;
+    text-align: left;
+}
+.c{
+    margin: 0 auto;
+}
+
+/*通用部分*/
+.fixedNav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100000;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop));
+}
+/*欢迎来到天翼云顶部栏开始*/
+.top {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #333;
+    color: #D8D8D8;
+}
+.top a {
+    color: #D8D8D8;
+    font-size: 13px;
+}
+.top div.col-sm-4 a:hover{
+    text-decoration: underline;
+}
+.top div:nth-child(2) {
+    /*background-color: red;*/
+    text-align: right;
+}
+.top div:nth-child(2) a:hover {
+    /*color: #13F4F3;*/
+    text-decoration: none;
+    color: #fff;
+}
+/*欢迎来到天翼云顶部栏结束*/
+/*我要报名开始*/
+.arrow{
+    width: 17px;
+    height: 30px;
+    background:url(../img/arr1.png) no-repeat;
+    -webkit-background-size: 17px 30px;
+    background-size: 17px 30px;
+    position: absolute;
+    /*left: 100px;*/
+    /*bottom: 29px;*/
+    animation: 1.5s infinite arrowMove;
+    -webkit-animation: 1.5s infinite arrowMove;
+}
+@keyframes arrowMove {
+    0%{
+        opacity: 0;
+        transform: translate(0,0);
+    }
+    50%{
+        opacity: 1;
+        transform: translate(10px,0);
+    }
+    100%{
+        opacity: 0.3;
+        transform: translate(20px,0);
+    }
+}
+@keyframes fontMove {
+    0%{
+        opacity: 0.7;
+        transform: scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1.0);
+    }
+}
+
+
+
+.banner{
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    margin-top: 50px;
+}
+
+.banner a.enroll_1{
+    left: 50%;
+    margin-left: -60px;
+    bottom: 11%;
+    font-size: 30px;
+    color: #fff;
+    animation: 1.5s infinite fontMove;
+    -webkit-animation: 1.5s infinite fontMove;
+    position: absolute;
+}
+.banner .arrow{
+    left: 50%;
+    margin-left: -120px;
+    bottom: 12%;
+}
+.banner a.enroll_1 span{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/*我要报名结束*/
+
+
+/*  将bootstrap中 样式进行拷贝 以及替换 */
+.wjs_default {
+    background-color: #2E3743;
+    border-color: #2E3743;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.wjs_default .navbar-brand {
+    color: #777;
+    height: 50px;
+    padding:0 0 0 30px;
+    float: left;
+}
+
+.wjs_default .navbar-text {
+    color: #777;
+}
+.wjs_default .navbar-nav{
+    float: right;
+}
+.wjs_default .navbar-nav > li > a {
+    color: #fff;
+    padding-left: 13px;
+    padding-right: 12px;
+    height: 60px;
+    line-height: 30px;
+}
+.wjs_default .navbar-nav > li > a:hover,
+.wjs_default .navbar-nav > li > a:focus {
+    color: #1AFFF8;
+    background-color: transparent;
+    border-bottom: 3px solid #1AFFF8;
+}
+.wjs_default .navbar-nav > .active > a,
+.wjs_default .navbar-nav > .active > a:hover,
+.wjs_default .navbar-nav > .active > a:focus {
+    color: #555;
+}
+.wjs_default .navbar-nav > .disabled > a,
+.wjs_default .navbar-nav > .disabled > a:hover,
+.wjs_default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.wjs_default .navbar-toggle {
+    border-color: #ddd;
+}
+.wjs_default .navbar-toggle:hover,
+.wjs_default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.wjs_default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.wjs_default .navbar-collapse,
+.wjs_default .navbar-form {
+    border-color: #e7e7e7;
+}
+.wjs_default .navbar-nav > .open > a,
+.wjs_default .navbar-nav > .open > a:hover,
+.wjs_default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.wjs_default .navbar-nav .enroll{
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    background-color: orange;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; ;
+}
+.wjs_default .navbar-nav a.enroll:hover{
+    color: #ffffff;
+    background-color: orange;
+    border:none;
+    box-shadow: -2px -2px 5px 0 #ffffff inset;
+    /*text-shadow: 0 0 1px #333;*/
+}
+@media (max-width: 100px) {
+    .wjs_default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .wjs_default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .wjs_default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .wjs_default .navbar-nav .open .dropdown-menu > .active > a,
+    .wjs_default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .wjs_default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .wjs_default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .wjs_default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .wjs_default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.wjs_default .navbar-link {
+    color: #777;
+}
+.wjs_default .navbar-link:hover {
+    color: #333;
+}
+.wjs_default .btn-link {
+    color: #777;
+}
+.wjs_default .btn-link:hover,
+.wjs_default .btn-link:focus {
+    color: #333;
+}
+.wjs_default .btn-link[disabled]:hover,
+fieldset[disabled] .wjs_default .btn-link:hover,
+.wjs_default .btn-link[disabled]:focus,
+fieldset[disabled] .wjs_default .btn-link:focus {
+    color: #ccc;
+}
+.wjs_default img{
+    margin-top: 5px;
+}
+.content{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /*height: 2211px;*/
+    background: url("../img/bg.png") center;
+    background-size: contain;
+    overflow: hidden;
+    font-size: 14px;
+    font-family:"Microsoft YaHei";
+}
+@media (min-width: 400px) {
+    .content{
+        width: 100%;
+    }
+}
+.container{
+    width: 90%;
+    padding: 0;
+}
+.content>.container{
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+.content>.container{
+    /*margin-bottom: 50px;*/
+}
+/*@media (min-width: 1600px){*/
+    /*.container {*/
+        /*width: 1525px;*/
+    /*}*/
+/*}*/
+/*返回顶部*/
+.toTop{
+    right: 0;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    background: #2ee9e9;
+    opacity: 0.8;
+}
+
+.public{
+    width: 100px;
+    height: 140px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: -70px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    display: none;
+}
+.public img{
+    width: 80px;
+    height: 80px;
+    margin-top: 14px;
+}
+.bottom{
+    padding: 20px 0;
+    background-color: #2E3743;
+    color: #ffffff;
+    font-size: 12px;
+}
+.cf {zoom:1;}    /*==for IE6/7 Maxthon2==*/
+.cf:after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+label{font-weight: normal;}
+table{font-size: 14px;}

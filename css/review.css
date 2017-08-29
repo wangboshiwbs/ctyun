@@ -1,0 +1,294 @@
+table{
+    font-size: 14px !important;
+}
+.content .container{
+    padding: 30px 10px;
+    margin-top: 50px;
+    min-height: 800px;
+}
+.content .container div:nth-child(2) div:nth-child(1){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #9934E5;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff ;
+}
+select{
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 3px 20px;
+}
+/*1、厂商审核开始*/
+#firm{
+    /*display: none;*/
+}
+#firm tr td,table tr th{
+    text-align: center;
+}
+#firm tr td:first-child{
+    width: 10%;
+}
+#firm tr td:nth-child(2){
+    width: 10%;
+}
+#firm tr td:nth-child(3){
+    width: 10%;
+}
+#firm tr td:nth-child(4),table tr th:nth-child(4){
+    width: 300px;
+}
+#firm tr td:nth-child(5){
+    width: 20%;
+}
+#firm tr td:nth-child(6){
+    width: 10%;
+}
+#firm tr td:nth-child(7){
+    /*width: 10%;*/
+}
+/*1、厂商审核结束*/
+
+/*2、电信员工个人审核开始*/
+#telecomP{
+    display: none;
+}
+#telecomP tr td,table tr th{
+    text-align: center;
+}
+#telecomP tr td:first-child{
+    width: 7%;
+}
+#telecomP tr td:nth-child(2){
+    width: 8%;
+}
+#telecomP tr td:nth-child(3){
+    width: 10%;
+}
+#telecomP tr td:nth-child(4),table tr th:nth-child(4){
+    width: 380px;
+}
+#telecomP tr td:nth-child(4) div{
+    width: 380px;
+    height: 100px;
+    overflow: auto;
+}
+#telecomP tr td:nth-child(5){
+    width: 20%;
+}
+#telecomP tr td:nth-child(6){
+    width: 10%;
+}
+#telecomP tr td:nth-child(7){
+    /*width: 10%;*/
+}
+/*2、电信员工个人审核结束*/
+/*3、电信员工团体审核开始*/
+
+#telecomG{
+    display: none;
+}
+#telecomG tr td,table tr th{
+    text-align: center;
+}
+#telecomG tr td:first-child{
+    width: 7%;
+}
+#telecomG tr td:nth-child(2){
+    width: 8%;
+}
+#telecomG tr td:nth-child(3){
+    width: 10%;
+}
+#telecomG tr td:nth-child(4),table tr th:nth-child(4){
+    width: 30%;
+}
+#telecomG tr td:nth-child(4) div{
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+    margin: 0;
+}
+#telecomG tr td:nth-child(5){
+    /*width: 10%;*/
+}
+#telecomG tr td:nth-child(6){
+    width: 10%;
+}
+#telecomG tr td:nth-child(7){
+    width: 10%;
+}
+#telecomG tr td:nth-child(8) {
+    width: 10%;
+
+}
+/*3、电信员工团体审核结束*/
+
+/*4、高校学生个人审核开始*/
+#studentP{
+    display: none;
+}
+#studentP tr td,table tr th{
+    text-align: center;
+}
+#studentP tr td:first-child{
+    width: 7%;
+}
+#studentP tr td:nth-child(2){
+    width: 8%;
+}
+#studentP tr td:nth-child(3){
+    width: 10%;
+}
+#studentP tr td:nth-child(4),table tr th:nth-child(4){
+    width: 380px;
+}
+#studentP tr td:nth-child(4) div{
+    width: 380px;
+    height: 100px;
+    overflow: auto;
+}
+#studentP tr td:nth-child(5){
+    width: 20%;
+}
+#studentP tr td:nth-child(6){
+    width: 10%;
+}
+#studentP tr td:nth-child(7){
+    /*width: 10%;*/
+}
+/*4、高校学生个人审核结束*/
+
+/*5、高校学生团体审核开始*/
+#studentG{
+    display: none;
+}
+#studentG tr td,table tr th{
+    text-align: center;
+}
+#studentG tr td:first-child{
+    width: 7%;
+}
+#studentG tr td:nth-child(2){
+    width: 8%;
+}
+#studentG tr td:nth-child(3){
+    width: 10%;
+}
+#studentG tr td:nth-child(4),table tr th:nth-child(4){
+    width: 30%;
+}
+#studentG tr td:nth-child(4) div{
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+    margin: 0;
+}
+#studentG tr td:nth-child(5){
+    /*width: 10%;*/
+}
+#studentG tr td:nth-child(6){
+    width: 10%;
+}
+#studentG tr td:nth-child(7){
+    width: 10%;
+}
+#studentG tr td:nth-child(8) {
+    width: 11%;
+
+}
+/*5、高校学生团体审核结束*/
+/*6、开发人才个人审核开始*/
+#developerP{
+    display: none;
+}
+#developerP tr td,table tr th{
+    text-align: center;
+}
+#developerP tr td:first-child{
+    width: 7%;
+}
+#developerP tr td:nth-child(2){
+    width: 8%;
+}
+#developerP tr td:nth-child(3){
+    width: 10%;
+}
+#developerP tr td:nth-child(4),table tr th:nth-child(4){
+    width: 380px;
+}
+#developerP tr td:nth-child(4) div{
+    width: 380px;
+    height: 100px;
+    overflow: auto;
+}
+#developerP tr td:nth-child(5){
+    width: 20%;
+}
+#developerP tr td:nth-child(6){
+    width: 10%;
+}
+#developerP tr td:nth-child(7){
+    /*width: 10%;*/
+}
+/*6、开发人才个人审核结束*/
+/*7、开发人才团体审核开始*/
+#developerG{
+    display: none;
+}
+#developerG tr td,table tr th{
+    text-align: center;
+}
+#developerG tr td:first-child{
+    width: 7%;
+}
+#developerG tr td:nth-child(2){
+    width: 8%;
+}
+#developerG tr td:nth-child(3){
+    width: 10%;
+}
+#developerG tr td:nth-child(4),table tr th:nth-child(4){
+    width: 30%;
+}
+#developerG tr td:nth-child(4) div{
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+    margin: 0;
+}
+#developerG tr td:nth-child(5){
+    /*width: 10%;*/
+}
+#developerG tr td:nth-child(6){
+    width: 10%;
+}
+#developerG tr td:nth-child(7){
+    width: 10%;
+}
+#developerG tr td:nth-child(8) {
+    width: 11%;
+}
+/*7、开发人才团体审核结束*/
+
+
+
+
+
+.count>span:nth-child(1){
+    margin-left: 60px;
+}
+.count>span:nth-child(2){
+    margin-left: 110px;
+}
+.count>span:nth-child(3){
+    margin-left: 330px;
+}
+.count>input{
+    margin-left: 120px;
+    width: 100px;
+    height: 30px;
+    background-color: #59d6ff;
+    color: white;
+}

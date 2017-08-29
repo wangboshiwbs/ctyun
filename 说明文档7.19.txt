@@ -1,0 +1,10 @@
+agreement.html——协议
+developer.html——开发者报名表单
+enrolled.html——已报名
+firm.html——厂商报名表单
+index.html——首页
+infofirm.html——厂商报名信息查看页
+infopersonal.html——个人报名信息查看
+infogroup.html——团体报名信息查看
+question.html——试题页（模拟）
+review.html——审核页（7.19新增）

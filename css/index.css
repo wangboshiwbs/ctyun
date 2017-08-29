@@ -1,0 +1,262 @@
+﻿/*body{*/
+    /*height: 3000px;*/
+/*}*/
+
+.content{
+    margin-top: 0;
+
+    color: #FFFFFF;
+}
+.content>.container{
+    background: none;
+}
+.content>.container .container-fluid{
+    margin: 0 30px;
+}
+/*.content>.container>.row>div{*/
+    /*margin: 10px;*/
+    /*border: 10px solid red;*/
+/*}*/
+.content>.container .row{
+    /*padding-top: 60px;*/
+}
+.content h3{
+    margin-top:70px;
+    text-indent: -9999px;
+    height: 100px;
+    /*margin-bottom: 30px;*/
+}
+
+.blue-robin-bottom span{
+    display: block;
+    border-bottom: 3px solid #9934E5;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+#introduction p{
+    margin: 0 auto;
+    /*margin-top: 40px;*/
+    width: 100%;
+    font-size: 18px;
+    line-height: 35px;
+    text-indent: 2em;
+    text-align: left;
+    color: #ffffff;
+}
+
+#introduction h3{
+    background: url("../img/title1.png") center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+
+/*参赛对象*/
+#arrangement h3{
+    background: url("../img/title2.png") center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+
+}
+#arrangement p{
+    /*margin: 0 auto;*/
+    /*margin-top: 40px;*/
+    text-align: center;
+    width: 100%;
+
+}
+#arrangement table{
+    /*border: 1px solid #d0d0d0;*/
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+}
+#arrangement table th{
+    font-weight: 600;
+}
+#arrangement table td,#arrangement table th{
+    /*border: 1px solid #d0d0d0;*/
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    /*margin-left: -1px;*/
+}
+#arrangement table tr td:nth-child(1){
+    width: 20%;
+}
+#arrangement table tr td:nth-child(2){
+    width: 30%;
+}
+#arrangement table tr td:nth-child(3){
+    width: 30%;
+}
+/*参赛对象结束*/
+/*大赛流程开始*/
+#procedure h3{
+    background: url("../img/title3.png") center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+#procedure div.container,#prize div.container{
+    position: relative;
+}
+#procedure img,#prize img{
+    text-align: center;
+}
+#procedure .row div,#prize .row div{
+    text-align: center;
+}
+
+
+@media screen and (min-width:992px){
+    #procedure .row>div:nth-child(3),#prize .row>div:nth-child(3){
+        border-right: 1px solid #000;
+    }
+    /*.ruleDev{*/
+        /*border-right: 1px solid #000;*/
+    /*}*/
+}
+@media screen and (max-width:992px){
+    #procedure .row>div:nth-child(3),#prize .row>div:nth-child(3){
+        border-bottom: 2px solid #cccccc;
+    }
+    /*.ruleDev{*/
+        /*border-bottom: 1px solid #000;*/
+    /*}*/
+}
+
+#procedure .row span,#prize .row span{
+    display: inline-block;
+    background-color: #9934E5;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 10px 0 5px;
+    box-shadow: 2px 2px 5px 0 #333333;
+}
+#procedure .container-fluid p{
+    text-align: center;
+    margin-left: 15%;
+    font-size: 16px;
+    width: 70%;
+    margin-top: 30px;
+}
+/*大赛流程结束*/
+
+/*比赛规则开始*/
+#rule h3{
+    background: url("../img/title4.png") center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+#rule .dev-rule{}
+#rule .par-rule{}
+#rule .dev-rule span,#rule .par-rule span{
+    color: #1ee9e9;
+    line-height: 40px;
+}
+#rule .dev-rule,#rule .par-rule {
+}
+#rule .dev-rule p,#rule .par-rule p {
+    text-align: justify;
+}
+.rule-content{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-top: -170px;
+    padding-bottom: 20px;
+}
+.rule-contentP{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-top: -130px;
+    padding-bottom: 20px;
+}
+
+/*比赛规则结束*/
+/*奖励奖项开始*/
+#prize h3{
+    background: url("../img/title5.png") center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+#prize .container p{
+    text-align: center;
+    margin-left: 15%;
+    font-size: 16px;
+    width: 70%;
+}
+
+/*奖励奖项结束*/
+/*注册按钮开始*/
+#enroll{
+    margin-bottom: 100px;
+}
+#enroll h3{
+    background: url("../img/title6.png") center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-bottom: 50px;
+}
+#enroll div.container{
+    height: 150px;
+    padding: 0 20px;
+}
+#enroll .container div{
+    padding-top: 20px;
+}
+
+
+/*注册按钮结束*/
+/*已注册页面部分*/
+.banner{
+    background-color: #1D2177;
+}
+.banner .enroll_2 {
+
+    left: 200px;
+    bottom: 50px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+}
+.banner .enroll_2 span:nth-child(1) {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.banner .enroll_2 span:nth-child(2) {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+}
+.banner a:nth-child(4),.banner a:nth-child(5){
+    display: inline-block;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: #2ee9e9;
+    color: #1D2177;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+.banner a:nth-child(4):hover,.banner a:nth-child(5):hover {
+    box-shadow: 0 0 2px 2px #FFFFFF;
+}
+.banner a:nth-child(4){
+    left: 50%;
+    margin-left: -130px;
+}
+.banner a:nth-child(5){
+    left: 50%;
+    margin-left: 30px;
+}
+/*已注册页面部分*/
